@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colegio "Gotitas del Saber"</title>
+    <link rel="icon" sizes="16x16 32x32 48x48" type="image/png" href="code.png" />
+    <link rel="stylesheet" href="homestyles.css">
+    <style>
+        
+        @import url('https://fonts.googleapis.com/css2?family=Honk&family=Oswald:wght@200..700&family=Press+Start+2P&display=swap');
+        p{
+            margin-top: 10px;
+        }
+        body {
+            font-family: "Oswald", sans-serif;
+            background-color: #ffffff;
+            color: #000000;
+            margin: 0;
+            padding: 0;
+        }
+        .container img{
+            width: 600px;
+
+        }
+
+        img { 
+            width: 150px;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+        header {
+            background-color: #c3b6ff;
+            color: #ffffff;
+            padding: 2em;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #a795f7;
+            padding: 0.6em;
+            text-align: center;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 1em;
+            margin: 0.5em;
+            border-radius: 5px;
+            background-color: #9687e4;
+            cursor: pointer;
+        }
+
+        a{
+            color: #ffffff;
+            text-decoration: none;
+            padding: 1em;
+            margin: 0.5em;
+            border-radius: 5px;
+            background-color: #9687e4;
+            cursor: pointer;
+        }
+
+        section {
+            padding: 2em;
+            
+        }
+        .menu-container {
+            color: #000000;
+            
+        }
+
+
+        footer {
+
+            background-color: #ffffff;
+            color: #000000;
+            text-align: center;
+            padding:0.1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        footer p{
+            font-size: 15px;
+
+        }
+        body {
+          
+            background-size: cover;  
+        }
+        .formulario{
+            background-color: #cfb1ff;
+            border-radius: 5px;
+        }
+        .formulario h3{
+            margin-left: 20%;
+            padding-top: 30px;
+            padding-bottom: 20px;
+        }
+
+        input{
+            background-color: #ffffff;
+            color: #000000;
+            border-radius: 5px;
+            font-size: 20px;
+            font-family: "Oswald", sans-serif;
+            border: none;
+        }
+        button{ 
+            font-size: 20px;
+            background-color: #9687e4;
+            border-radius: 7px;
+            border-color: #000000;
+            color: #ffffff;
+            
+        }
+        .formulario {
+            background-color: #cfb1ff;
+            border-radius: 5px;
+            padding: 2em;
+            width: 80%;
+            margin: 2em auto;
+        }
+        .formulario h3 {
+            margin-left: 20%;
+            padding-top: 30px;
+            padding-bottom: 20px;
+        }
+        .formulario label {
+            display: block;
+            margin: 1em 0 0.5em;
+            font-size: 1.2em;
+        }
+        .formulario input[type="text"],
+        .formulario input[type="email"],
+        .formulario textarea {
+            width: 100%;
+            padding: 0.5em;
+            margin-bottom: 1em;
+            border: none;
+            border-radius: 5px;
+            background-color: #ffffff;
+            color: #000000;
+            font-size: 1em;
+            font-family: "Oswald", sans-serif;
+        }
+        .formulario button {
+            display: block;
+            width: 100%;
+            padding: 0.7em;
+            font-size: 1.2em;
+            background-color: #9687e4;
+            border-radius: 7px;
+            border: none;
+            color: #ffffff;
+            cursor: pointer;
+        }
+        .formulario button:hover {
+            background-color: #7e6bcf;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>PORTAFOLIO ANDRADE, ROSERO Y YANEZ</h1>
+    </header>
+
+    <nav>
+        <a onclick="mostrarSeccion('inicio')">Inicio</a>
+        <a onclick="mostrarSeccion('noticias')">Proyectos</a>
+        <a onclick="mostrarSeccion('eventos')">Sobre nosotros</a>
+        <a onclick="mostrarSeccion('contacto')">Contacto</a>
+    </nav>
+
+
+
+    <section id="inicio">
+        <h2>Bienvenido a la página del aporte de Diseño y Desarrollo Web</h2>
+        <p><strong>Grupo conformado por:</strong> Erick Yanez, Victor Andrade y Luis Rosero.</p>
+        <p>En esta página, tendrás la oportunidad de explorar el portafolio personal de cada uno de los estudiantes anteriormente mencionados. Nuestro sitio web está estructurado para brindarte una experiencia integral y detallada, que incluye las siguientes secciones:</p>
+        <ul>
+            <li><strong>Inicio:</strong> Una introducción general al sitio y a los miembros del grupo.</li>
+            <li><strong>Proyectos:</strong> Una muestra de los proyectos individuales y grupales que hemos desarrollado, destacando nuestras habilidades y creatividad en el diseño y desarrollo web.</li>
+            <li><strong>Sobre Nosotros:</strong> Una sección dedicada a proporcionar más información sobre cada integrante del grupo, incluyendo nuestras trayectorias, habilidades y pasiones dentro del campo del diseño y desarrollo web.</li>
+            <li><strong>Contáctenos:</strong> Una página donde puedes encontrar diversas formas de ponerte en contacto con nosotros, ya sea para preguntas, colaboraciones o cualquier otro tipo de consulta.</li>
+        </ul>
+        <p>Esperamos que disfrutes navegando por nuestro sitio y que encuentres inspiradores los proyectos y la información que hemos compartido. ¡Gracias por visitarnos!</p>
+    </section>
+    
+<section id="noticias" style="display: none;">
+    <h2>Proyectos</h2>
+
+    <br>
+    <div class="menu-container">
+        <div class="menu-section">
+          <img src="ico.png" loading="lazy">
+          <h2>TechLearn (Erick Yánez)</h2>
+          <p style="margin-left: 10px; margin-right: 10px;">Es una replica de classroom pero con la diferencia de crear una mejor conexión de profesor con alumno.</p>
+          <a href="https://neosowo.github.io/Techlearn-Site/home.html">Ver</a>
+        </div>
+        <div class="menu-section">
+          <img src="https://gotitasdelsaber.net/wp-content/uploads/2021/02/LOGO-DE-GOTITAS-DEL-SABER-01.png"  loading="lazy">
+          <h2>Pagina "Gotitas del saber" (Luis Rosero)</h2>
+          <p  style="margin-left: 10px; margin-right: 10px;"> Es una pagina dedicada a las noticias del colegio "Gotitas del saber"</p>
+          <a href="rosero.html">Ver</a>
+        </div>
+     
+        <div class="menu-section">
+          <img src="ico-back.png"  loading="lazy">
+          <h2>Pagina grupal de las materias tecnicas de Montepiedra. (Victor Adrade)</h2>
+          <p style="margin-left: 10px; margin-right: 10px;"> Es una pagina que habla de las distintas materias tecnicas del area informatica del colegio Montepiedra.</p>
+          <a href="andrade.html">Ver</a>
+          
+        </div>
+
+      </div>
+    </section>
+
+    <section id="eventos" style="display: none;">
+        <h2>Sobre nosotros.</h2>
+        
+
+
+        
+
+        
+        <div class="menu-container">
+            <div class="menu-section">
+              <img src="ERICK.jpg" loading="lazy">
+              <h2>Erick José Yánez Santana</h2>
+                <br>Colegio: Unidad Educativa Montepiedra.
+                <br>Fecha de nacimiento: 28/12/2006
+                <br>Lugar nacimiento: Guayaquil, Tarqui, en el hospital del IESS.
+                <br>Materia favorita: Diseño web.
+                <br>Correo Electrónico: ejyanez@alumno.montepiedra.edu.ec
+                <br>Curso: 3ero Bachillerato "Informática"</br>
+            </div>
+            <div class="menu-section">
+                <img src="ROSERO.jpg">
+              <h2>Luis Adrián Rosero Granados</h2>
+                <br>Colegio: Unidad Educativa Montepiedra.
+                <br>Fecha de nacimiento: 17/6/2007
+                <br>Lugar nacimiento: Guayaquil, Tarqui, en el hospital del Ibernassa.
+                <br>Materia favorita: Matemáticas.
+                <br>Correo Electrónico: lrosero@alumno.montepiedra.edu.ec
+                <br>Curso: 3ero Bachillerato "Informática"<br>
+               
+            </div>
+         
+            <div class="menu-section">
+                <img src="ANDRADE.jpg">
+              <h2>Victor Manuel Andrade Palacios.</h2>
+
+                <br>Colegio: Unidad Educativa Montepiedra.
+                <br>Fecha de nacimiento: 10/6/2007
+                <br>Lugar nacimiento: Guayaquil, Tarqui, en el hospital del IESS.
+                <br>Materia favorita: Programación.
+                <br>Correo Electrónico: vandrade@alumno.montepiedra.edu.ec
+                <br>Curso: 3ero Bachillerato "Informática"<br>
+                
+            </div>
+    
+          </div>
+        
+        </section>
+
+<section id="contacto" style="display: none;">
+    <h2>Contacto</h2>
+    <p>¿Tienes alguna pregunta o comentario? No dudes en ponerte en contacto con nosotros:</p>
+    <div class="formulario">
+        <label for="nombre"><strong>Nombre:</strong></label>
+        <input type="text" id="nombre" name="nombre" placeholder="Pepe Perez">
+    
+        <label for="email"><strong>Email:</strong></label>
+        <input type="email" id="email" name="email" placeholder="pepe@gmail.com">
+    
+        <label for="mensaje"><strong>Mensaje:</strong></label>
+        <textarea id="mensaje" name="mensaje" rows="4" placeholder="Hola..."></textarea>
+    
+        <button type="submit">Enviar</button>
+    </div>
+    <footer>
+        <div>
+            <p><strong>Dirección:</strong> Mapasingue Oeste<strong> | Telefono:</strong> +593 9997766362 <strong> | Correo Electrónico:</strong> ejyanez@alumno.montepiedra.edu.ec</p>
+        
+        </div>
+    
+    </footer>
+ 	<script>
+        function mostrarSeccion(seccion) {
+            document.getElementById('inicio').style.display = 'none';
+            document.getElementById('noticias').style.display = 'none';
+            document.getElementById('eventos').style.display = 'none';
+            document.getElementById('contacto').style.display = 'none';
+
+            document.getElementById(seccion).style.display = 'block';
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colegio "Gotitas del Saber"</title>
+    <style>
+        
+        @import url('https://fonts.googleapis.com/css2?family=Honk&family=Oswald:wght@200..700&family=Press+Start+2P&display=swap');
+    
+        body {
+            font-family: "Oswald", sans-serif;
+            background-color: #141414;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+        .container img{
+            width: 600px;
+
+        }
+
+        header {
+            background-color: #003366;
+            color: #ffffff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #6699cc;
+            padding: 0.5em;
+            text-align: center;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 1em;
+            margin: 0.5em;
+            border-radius: 5px;
+            background-color: #336699;
+            cursor: pointer;
+        }
+
+        section {
+            padding: 2em;
+        }
+
+        footer {
+            background-color: #003366;
+            color: #ffffff;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        body {
+          
+            background-size: cover;  
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Colegio "Gotitas del Saber"</h1>
+    </header>
+
+    <nav>
+        <a onclick="mostrarSeccion('inicio')">Inicio</a>
+        <a onclick="mostrarSeccion('noticias')">Noticias</a>
+        <a onclick="mostrarSeccion('eventos')">Eventos</a>
+        <a onclick="mostrarSeccion('contacto')">Contacto</a>
+    </nav>
+
+<section id="inicio">
+<h2>Bienvenido al Colegio Gotitas del Saber</h2>
+<p><strong>Compromiso de la Institución Educativa "Gotitas del Saber" con la Excelencia Educativa y el Desarrollo Integral</p>
+
+<p>En "Gotitas del Saber", asumimos un compromiso inquebrantable con la excelencia educativa y el desarrollo integral de cada estudiante. Nos esforzamos por crear un ambiente educativo enriquecedor que no solo promueva el aprendizaje académico, sino que también nutra el crecimiento personal, emocional y social de nuestros alumnos.</p>
+
+<p><strong>Nuestro Compromiso:</strong></p>
+
+<p>Educación de Calidad:<br>
+En "Gotitas del Saber", nos comprometemos a ofrecer una educación de calidad que estimule la curiosidad, fomente el pensamiento crítico y proporcione las habilidades necesarias para enfrentar los desafíos del siglo XXI. Nuestros programas académicos están diseñados para inspirar la pasión por el conocimiento y cultivar habilidades que prepararán a nuestros estudiantes para un futuro exitoso.</p>
+
+<p>Desarrollo Integral:<br>
+Reconocemos la importancia de desarrollar no solo las capacidades académicas, sino también las habilidades sociales, emocionales y éticas. En "Gotitas del Saber", nos comprometemos a brindar oportunidades para el crecimiento personal, el respeto mutuo y la formación de ciudadanos responsables y compasivos.</p>
+
+<p>Inclusión y Diversidad:<br>
+Valoramos la diversidad y nos esforzamos por crear un entorno inclusivo donde cada estudiante se sienta respetado y apoyado. Nuestro compromiso con la inclusión abarca todas las dimensiones, desde la diversidad cultural hasta las necesidades individuales de aprendizaje.</p>
+
+<p>Participación Activa de la Comunidad:<br>
+Reconocemos la importancia de la colaboración entre la escuela, los estudiantes, los padres y la comunidad en general. Fomentamos la participación activa de todos los miembros de la comunidad educativa para crear un entorno que promueva el éxito académico y el bienestar emocional.</p>
+
+<p><strong>Cómo Planeamos Cumplir Nuestro Compromiso:</strong></p>
+
+<p>Desarrollando programas educativos innovadores y actualizados.<br>
+Implementando estrategias pedagógicas centradas en el estudiante.<br>
+Proporcionando oportunidades extracurriculares que complementen el aprendizaje académico.<br>
+Fomentando un ambiente seguro, respetuoso e inclusivo.<br>
+Estableciendo una comunicación abierta y efectiva con padres y miembros de la comunidad.</p>
+<h1><img src="data:image/jpeg;base64,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" alt="Logo del Colegio"></h1>
+
+<p>En "Gotitas del Saber", nuestro compromiso es ir más allá de la enseñanza tradicional y crear un espacio donde cada estudiante florezca, crezca y se convierta en un aprendiz de por vida comprometido con el conocimiento y el servicio a la sociedad.</p>
+</section>
+
+<section id="noticias" style="display: none;">
+<h2>Noticias del Colegio "Gotitas del Saber"</h2>
+<div class="container">
+<h3><img src="https://gotitasdelsaber.net/wp-content/uploads/2021/02/LOGO-DE-GOTITAS-DEL-SABER-01.png" alt="Imagen"></h3></div>
+<p><strong>Título: Últimas Noticias del Colegio "Gotitas del Saber"<br><br>
+
+1. Excelencia Académica: Avances y Reconocimientos<br>
+<br>
+En un emocionante evento académico, celebramos los notables logros de nuestros estudiantes en diversas áreas. Desde competiciones científicas hasta destacadas participaciones en eventos culturales, los estudiantes de "Gotitas del Saber" continúan demostrando su dedicación y talento excepcional. Estamos orgullosos de sus logros y comprometidos con seguir brindando oportunidades para el florecimiento académico.<br>
+<br>
+2. Proyecto Ecológico: Cuidando nuestro Entorno<br>
+<br>
+"Gotitas del Saber" lanzó un nuevo proyecto ecológico para fomentar la conciencia ambiental entre nuestros estudiantes. Desde la siembra de árboles hasta la implementación de prácticas sostenibles en el campus, nuestro compromiso con el medio ambiente se refleja en acciones tangibles. Creemos en educar a nuestros estudiantes no solo académicamente, sino también como ciudadanos responsables y conscientes del entorno.<br>
+<br>
+3. Actividades Extracurriculares: Explorando Pasiones y Talentos<br>
+<br>
+Nuestro programa de actividades extracurriculares se ha expandido para incluir una variedad de opciones que permiten a los estudiantes explorar y desarrollar sus pasiones y talentos. Desde clubes de arte y música hasta competiciones deportivas, estamos comprometidos en proporcionar un ambiente enriquecedor que fomente el crecimiento integral de cada estudiante.<br>
+<br>
+4. Celebración del Día del Maestro: Reconociendo la Dedicación<br>
+<br>
+Hemos dedicado un día especial para honrar y agradecer a nuestros maestros por su compromiso y dedicación excepcionales. Sus esfuerzos incansables contribuyen significativamente al ambiente de aprendizaje positivo en "Gotitas del Saber". Agradecemos a cada miembro del personal educativo por su arduo trabajo y pasión por la enseñanza.<br>
+<br>
+5. Proyectos de Voluntariado: Conectando con la Comunidad<br>
+<br>
+Estudiantes de "Gotitas del Saber" participaron en proyectos de voluntariado que fortalecen los lazos con la comunidad local. Desde actividades benéficas hasta programas educativos para niños, nuestros estudiantes demuestran el compromiso de la institución con la responsabilidad social y el servicio comunitario.<br>
+<br>
+Mantente conectado con "Gotitas del Saber" para estar al tanto de más noticias emocionantes y eventos que reflejan nuestro compromiso con la excelencia educativa y el desarrollo integral de cada estudiante. ¡Juntos, continuamos creciendo y aprendiendo en el viaje del saber!<br></p>
+</section>
+
+<section id="eventos" style="display: none;">
+<h2>Eventos</h2>
+<p><strong>Explorando el Futuro: Próximos Eventos en "Gotitas del Saber"
+<br>En "Gotitas del Saber", nos enorgullece anunciar una serie emocionante de eventos que enriquecerán la experiencia educativa de nuestros estudiantes y fortalecerán los lazos dentro de nuestra vibrante comunidad. Estamos comprometidos en proporcionar oportunidades excepcionales para el crecimiento personal, académico y social de cada estudiante. A continuación, presentamos algunos de los eventos destacados que nos esperan:<br>
+
+<br>1. **Feria Científica y Tecnológica: Innovación en Acción**
+   <br>- Prepárense para asombrarse con la creatividad y el ingenio de nuestros jóvenes científicos. La Feria Científica y Tecnológica de "Gotitas del Saber" exhibirá proyectos innovadores que abarcan desde la exploración espacial hasta soluciones tecnológicas avanzadas.<br>
+
+<br>2. **Festival Cultural: Celebrando la Diversidad**
+   <br>- Sumérgete en un viaje cultural a medida que nuestros estudiantes presentan actuaciones, exposiciones y deliciosas muestras de gastronomía. Celebramos la diversidad que enriquece nuestra comunidad educativa.<br>
+
+<br>3. **Semana del Deporte: Activa tu Espíritu Competitivo**
+   <br>- ¡Prepárate para la acción! La Semana del Deporte incluirá competiciones emocionantes, desde torneos de fútbol hasta carreras atléticas. Fomentamos el trabajo en equipo y el espíritu deportivo.<br>
+
+<br>4. **Noche de Talentos: Descubriendo Estrellas Ocultas**
+   <br>- La creatividad y el talento se exhibirán en nuestra Noche de Talentos, donde los estudiantes podrán mostrar sus habilidades en música, danza, teatro y más. ¡Prepárense para quedarse asombrados!<br>
+
+<br>5. **Jornada de Puertas Abiertas: Conectando con las Familias**
+   <br>- Invitamos a todas las familias a nuestra Jornada de Puertas Abiertas, donde podrán explorar nuestras instalaciones, conocer al personal educativo y aprender más sobre nuestra filosofía educativa.<br>
+
+Mantente atento a más detalles sobre cada evento. En "Gotitas del Saber", creemos que estos momentos especiales son fundamentales para el crecimiento integral de nuestros estudiantes. ¡Te invitamos a unirte a nosotros en estos emocionantes eventos!<br></p>
+</section>
+
+<section id="contacto" style="display: none;">
+    <h2>Contacto</h2>
+    <p>¿Tienes alguna pregunta o comentario? No dudes en ponerte en contacto con nosotros:</p>
+
+    <div>
+        <p><strong>Direcciin:</strong> Calle de la Educacion, 1234</p>
+        <p><strong>Telefono:</strong> +123 456 789</p>
+        <p><strong>Correo Electrónico:</strong> info@gotitasdelsaber.edu</p>
+    </div>
+
+    <div>
+        <p><strong>Horario de Atención:</strong></p>
+        <p>Lunes a Viernes: 8:00 am - 5:00 pm</p>
+        <p>Sábados: 9:00 am - 12:00 pm</p>
+    </div>
+
+    <footer>
+    </footer>
+ 	<script>
+        function mostrarSeccion(seccion) {
+            // Oculta todas las secciones
+            document.getElementById('inicio').style.display = 'none';
+            document.getElementById('noticias').style.display = 'none';
+            document.getElementById('eventos').style.display = 'none';
+            document.getElementById('contacto').style.display = 'none';
+
+            // Muestra la sección seleccionada
+            document.getElementById(seccion).style.display = 'block';
+        }
+    </script>
+
+</body>
+</html>

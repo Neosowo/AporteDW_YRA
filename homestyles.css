@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+
+.toolmg{
+  background-color: #6e5fd1;
+}
+.toolmg:hover{
+  background-color: #614cef;
+  
+}
+
+.text-section{
+  margin-left:2%;
+  margin-right:2%;
+
+  line-height: 2.1em;
+  justify-content: center;
+}
+.responsive-container {
+        max-width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+
+.responsiveimg {
+  max-width: 100%;
+  align-items: center;
+  display: block;
+margin-left: auto;
+margin-right: auto;
+        display: flex;
+        flex-direction: row; /* Alineación horizontal por defecto */
+        justify-content: flex-start; /* Alineación a la izquierda por defecto */
+        border-radius: 19px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+  }
+
+  @media screen and (max-width: 600px) {
+        .container {
+            flex-direction: column; /* Cambiar a alineación vertical */
+            align-items: flex-start; /* Alineación hacia arriba */
+        }
+    }
+
+
+.xd{
+  cursor: pointer;
+}
+
+
+
+
+
+.home-section{
+  position: relative;
+
+  min-height: 100vh;
+  top: 0;
+  left: 78px;
+  width: calc(100% - 78px);
+  transition: all 0.5s ease;
+  z-index: 2;
+}
+.sidebar.open ~ .home-section{
+  left: 250px;
+  width: calc(100% - 250px);
+}
+.home-section .text{
+  display: inline-block;
+
+  font-size: 25px;
+  font-weight: 500;
+  margin: 18px
+}
+@media (max-width: 420px) {
+  .sidebar li .tooltip{
+    display: none;
+  }
+
+}
+
+.image-text img{
+    width: 10%;
+    height: 60px;
+    margin-left: 5px;
+    border-radius: 6px;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+.menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 27px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #fff;
+  max-width: 3000px;
+  
+
+}
+
+.bordercodeimg{
+  border-radius: 30px;
+}
+
+
+
+@media (max-width: 425px) {
+  .menu-section {
+  flex-basis: calc(20.33% - 300px);
+  max-width: 100%;
+
+}
+.menu-section img {
+  max-width: 50%;
+  max-height: 40%;
+}
+
+.text {
+  max-width: 208px; /* ajusta según el tamaño de fuente y el número de caracteres por línea */
+  word-wrap: break-word;
+  white-space: pre-line;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* número máximo de líneas */
+  -webkit-box-orient: vertical;
+  /* otros estilos aquí */
+}
+
+.code{
+  animation: shadowcode 1s infinite alternate;
+  }
+  
+  .dw{
+  animation: shadowdiseñow 0.9s infinite alternate;
+  }
+  
+  .emprendimiento{
+  animation: shadowemprendimiento 0.9s infinite alternate;
+  }
+  
+  .sup{ 
+  animation: shadowsup 0.9s infinite alternate;
+  }
+  
+  .redes{
+  animation: shadowredes 0.9s infinite alternate;
+  }
+
+
+
+}
+.menu-section {
+  flex-basis: calc(33.33% - 30px);
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color:#ffffff;
+  border-style: solid;
+  border-color: #c3b6ff;
+  border-radius: 10px;
+  padding-right: 10px;
+  padding-bottom: 30px;
+}
+
+
+.scroll-to-top:hover {
+background-color: #7c64b4;
+
+}
+
+.scroll-to-top i {
+margin-top: 8px;
+}
+
+.scroll-to-top.active {
+display: block;
+}
+
+
+
+
+
+
+
+.menu-section img {
+  width: auto;
+  height: 190px;
+  margin-bottom: 5%;
+  margin-top: 30px;
+  margin-right: 100px;
+  margin-bottom: 10px;
+  margin-left: 100px;
+}
+
+
+
+@keyframes shadowredes {
+  from {
+    box-shadow: 0 0 10px #000;
+  }
+  to {
+    box-shadow: 0 0 30px rgb(154, 168, 215);
+  }
+}
+
+
+.redes:hover{
+animation: shadowredes 0.9s infinite alternate;
+}
+
+
+
+@keyframes shadowsup {
+  from {
+    box-shadow: 0 0 10px #000;
+  }
+  to {
+    box-shadow: 0 0 30px rgb(136, 136, 136);
+  }
+}
+
+.sup:hover{ 
+animation: shadowsup 0.9s infinite alternate;
+}
+
+
+@keyframes shadowemprendimiento {
+  from {
+    box-shadow: 0 0 10px #000;
+  }
+  to {
+    box-shadow: 0 0 30px rgb(21, 177, 191);
+  }
+}
+
+.emprendimiento:hover{
+animation: shadowemprendimiento 0.9s infinite alternate;
+}
+
+@keyframes shadowdiseñow {
+  from {
+    box-shadow: 0 0 10px #000;
+  }
+  to {
+    box-shadow: 0 0 30px rgb(218, 97, 77);
+  }
+}
+
+.dw:hover{
+animation: shadowdiseñow 0.9s infinite alternate;
+}
+
+
+.code {
+position: relative;
+z-index: 1;
+}
+
+.code::before {
+content: "";
+position: absolute;
+z-index: -1; 
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: linear-gradient(-98deg, #7d8ce4 22%, #0fffc1 100%);
+box-shadow: 0 0 30px rgba(0, 0, 0, 0.5); 
+opacity: 0;
+transition: opacity 0.3s ease-in-out;
+}
+
+.code:hover::before {
+opacity: 1;
+}
+
